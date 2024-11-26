@@ -1,3 +1,3 @@
 # exercism
-question solved in exercism by me
-yeah this the edit in the readme file 
+SO I AM SOLVING QUESTION IN EXERCISM SO I AM UPLOADING SOLUTIONS
+FOR FUTURE USES AND ALSO LEARNING THE GIT SIMULATANEOUSLY
