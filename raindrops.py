@@ -9,10 +9,11 @@ def convert(number):
     why1 = "".join(why)
     return why1 if why1 else str(number)
 
-    if why:
-        return "".join(why)
-    else:
-        return str(number)
+     # that return statement expanded version
+    #if why:
+        #return "".join(why)
+    #else:
+        #return str(number)
 
 
 # but the problem here is happening when the number is divisble by both 3 and 5 
