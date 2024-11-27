@@ -24,7 +24,7 @@
 # the next problem will be when we will use else right before it check onlt the case in which number %7 ==0
 
 # we use the .join function for dictionary
-
+```python
 def convert(number):
     why = ""
 
@@ -39,3 +39,25 @@ def convert(number):
         return why
     else:
         return str(number)
+```
+
+def convert(number):
+    result = []
+    rules = {
+        3: "Pling",
+        5: "Plang",
+        7: "Plong",
+        # Add more rules as needed
+    }
+    for divisor,sound in rules.items():
+        if number % divisor == 0:
+            result.append(sound)
+    if result:
+        return "".join(result)
+    else:
+        return str(number)
+
+# so here the problem with above two code is it is good for th esmaller problem bu tnot fo r
+# not for large problems like we have to write 100 iff statemnets like mathces 100 factor 3 57 12 14 so 
+# # this dict method is usefuk there
+# taken help by chat-gpt in writing last code  
