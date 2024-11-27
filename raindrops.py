@@ -1,13 +1,15 @@
-# def convert(number):
-#     why =  []
-#     if number %3 ==  0 :
-#         why.append("Pling")
-#     if number % 5 == 0:
-#         why.append("Plang")
-#     if number % 7 == 0:
-#         why.append("Plong")
-#     why1 = "".join(why)
-#     return why1 if why1 else str(number)
+```python
+def convert(number):
+    why =  []
+    if number %3 ==  0 :
+        why.append("Pling")
+    if number % 5 == 0:
+        why.append("Plang")
+    if number % 7 == 0:
+        why.append("Plong")
+    why1 = "".join(why)
+    return why1 if why1 else str(number)
+```
 
      # that return statement expanded version
     #if why:
