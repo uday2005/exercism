@@ -1,13 +1,13 @@
-def convert(number):
-    why =  []
-    if number %3 ==  0 :
-        why.append("Pling")
-    if number % 5 == 0:
-        why.append("Plang")
-    if number % 7 == 0:
-        why.append("Plong")
-    why1 = "".join(why)
-    return why1 if why1 else str(number)
+# def convert(number):
+#     why =  []
+#     if number %3 ==  0 :
+#         why.append("Pling")
+#     if number % 5 == 0:
+#         why.append("Plang")
+#     if number % 7 == 0:
+#         why.append("Plong")
+#     why1 = "".join(why)
+#     return why1 if why1 else str(number)
 
      # that return statement expanded version
     #if why:
@@ -25,3 +25,17 @@ def convert(number):
 
 # we use the .join function for dictionary
 
+def convert(number):
+    why = ""
+
+    if number %3 ==  0 :
+        why += "Pling"
+    if number % 5 == 0:
+        why += "Plang"
+    if number % 7 == 0:   
+        why += "Plong"
+
+    if why:
+        return why
+    else:
+        return str(number)
